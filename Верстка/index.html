@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header center">
+        <h1 class="header__title">Добро пожаловать на мой сайт !</h1>
+        <p class="header__text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <b>поехали</b> и <b>приступай</b></p>
+        <button class="btn header__btn">Поехали!</button>
+    </header>
+    <div class="games center">
+        <div class="games__content item item1"><p class="games__content_text">Игра 1</p></div>
+        <div class="games__content item item2"><p class="games__content_text">Игра 2</p></div>
+        <div class="games__content item item3"><p class="games__content_text">Игра 3</p></div>
+    </div>
+    <div class="months center">
+        <div class="months__content">
+            <h2 class="months__title">Времена года!</h2>
+            <p class="months__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
+            <button onclick="game();" class="btn">Играть!</button>
+        </div>
+        <img class="months__img"  src="/img/months.svg" alt="">
+    </div>
+    <div class="words center">
+        <div class="words__content">
+            <h2 class="words__title">Запомни слова </h2>
+            <p class="words__text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+            <button onclick="words();" class="btn" >Играть</button>
+        </div>
+        <img class="words__img" src="/img/words.svg" alt="">
+    </div>
+    <script src="/script.js"></script>
+    <script src="/hw7.js"></script>
+</body>
+</html> 

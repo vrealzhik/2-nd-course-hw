@@ -1,0 +1,61 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .header__title {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        width: 343px;
+    }
+
+    .header__text {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+        width: 343px;
+    }
+
+    .games {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .months {
+        grid-template-areas: 
+        "con"
+        "im";
+        align-items: center;
+        text-align: center;
+        height: 100vh;
+        gap: 64px;
+        padding-bottom: 85px;
+        &__img {
+            height: 236px;
+            width: 344px;
+        }
+    }
+
+    .words {
+        grid-template-areas: 
+        "content"
+        "img";
+        text-align: center;
+        height: 100vh;
+        gap: 64px;
+        padding-bottom: 50px;
+        padding-top: 51px;
+        &__img {
+            height: 236px;
+            width: 344px;
+        }
+    }
+}
